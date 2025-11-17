@@ -1,45 +1,17 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [165] using StatReload
-INFO:     Started server process [167]
+INFO:     Started reloader process [222] using StatReload
+INFO:     Started server process [224]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:52202 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:52204 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:39294 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39294 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57802 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57802 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:34092 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:34092 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51046 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51046 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:42592 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59046 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59046 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59052 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59052 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57140 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57140 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57140 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57156 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57156 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57140 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57140 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57156 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39686 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39686 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39686 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39686 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39686 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39670 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:37216 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53262 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:53242 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53256 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51110 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51108 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46708 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46694 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59150 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59140 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59150 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59140 - "GET /api/selections HTTP/1.1" 200 OK
