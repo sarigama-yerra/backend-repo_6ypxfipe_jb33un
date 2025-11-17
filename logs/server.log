@@ -1,17 +1,11 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [222] using StatReload
-INFO:     Started server process [224]
+INFO:     Started reloader process [127] using StatReload
+INFO:     Started server process [129]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:53262 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:53242 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:53256 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51110 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51108 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:46708 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:46694 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59150 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59140 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59150 - "GET /api/selections HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59140 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39630 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:39646 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39642 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39654 - "GET /api/selections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39662 - "GET /api/selections HTTP/1.1" 200 OK
