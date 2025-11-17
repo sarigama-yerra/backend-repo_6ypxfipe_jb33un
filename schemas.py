@@ -12,7 +12,7 @@ Model name is converted to lowercase for the collection name:
 """
 
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Optional, List, Literal
 
 # Example schemas (replace with your own):
 
@@ -38,11 +38,13 @@ class Product(BaseModel):
     category: str = Field(..., description="Product category")
     in_stock: bool = Field(True, description="Whether product is in stock")
 
-# Add your own schemas here:
-# --------------------------------------------------
-
-# Note: The Flames database viewer will automatically:
-# 1. Read these schemas from GET /schema endpoint
-# 2. Use them for document validation when creating/editing
-# 3. Handle all database operations (CRUD) directly
-# 4. You don't need to create any database endpoints!
+# Map selection schema for storing user-created shaded areas
+class MapSelection(BaseModel):
+    """
+    Stores a user's selection of US states or counties
+    Collection name: "mapselection"
+    """
+    name: str = Field(..., description="Name for this selection")
+    level: Literal["state", "county"] = Field(..., description="Geographic level of selection")
+    items: List[str] = Field(default_factory=list, description="Selected identifiers (state codes or county FIPS)")
+    notes: Optional[str] = Field(None, description="Optional notes or description")
